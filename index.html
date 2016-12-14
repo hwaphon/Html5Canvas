@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="demo05.css">
+	</head>
+	<body>
+		<article>
+			<canvas width="680" height="320" id="myCanvas"></canvas>
+			<form>
+				<section>
+					<label for="backgroundColor">Select background :</label>
+					<select id="backgroundColor">
+						<option value="white" selected>White</option>
+						<option value="black">Black</option>
+					</select>
+				</section>
+				<section>
+					<label for="foregroundColor">Select ForegroundColor:</label>
+					<select id="foregroundColor">
+						<option value="white">White</option>
+						<option value="black" selected>Black</option>
+					</select>
+				</section>
+				<section>
+					<label for="shape">Select shape:</label>
+					<select id="shape">
+						<option value="circles" selected>Circles</option>
+						<option value="squares">Squares</option>
+					</select>
+				</section>
+				<section>
+					<label for="message">Input text:</label>
+					<input type="text" name="message" id="message" maxlength="48">
+				</section>
+				<input type="button" value="preview" id="previewButton">
+			</form>
+		</article>
+		<script src="demo05.js"></script>
+	</body>
+</html>
